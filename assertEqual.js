@@ -7,7 +7,7 @@ const assertEqual = function(actual, expected) {
   
 };
 
-//TEST CODE
+//Test Cases
 
 assertEqual("Lighthouse Labs", "Bootcamp");
 assertEqual(1, 1);
