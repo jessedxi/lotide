@@ -1,3 +1,4 @@
+//asserEqual function
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`🟢 Assertion Passed: ${actual} ===  ${expected}`);
@@ -6,6 +7,7 @@ const assertEqual = function(actual, expected) {
   }
 };
 
+// adds all items from current array to new array, besides the first element
 const tail = function(array) {
   let tailArray = [];
   for (let i = 1; i < array.length; i++) {
@@ -14,6 +16,7 @@ const tail = function(array) {
   return tailArray;
 };
 
+//Test cases using suggested answer & .join() method
 let words = ["Howdy", "What", "Up"];
 let result = tail(words);
 let test = ["What", "Up"];
