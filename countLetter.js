@@ -20,8 +20,8 @@ const countLetter = function (string) {
   return results;
 };
 // Test Code:
-let testString = "Lighthouse in the house"
-let resultTest = countLetter(testString)
-
+let testString = "Lighthouse in the house";
+let resultTest = countLetter(testString);
+console.log(countLetter(testString));
 
 assertEqual(resultTest["h"], 4);
