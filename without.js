@@ -34,12 +34,12 @@ const without = function (source, itemsToRemove) {
       }
     }
   }
-  return console.log(sourceEdit);
+  return sourceEdit;
 };
 
-without([1, 2, 3], [3]);
-without(["1", "2", "3"], [1, 2, "1"]);
-without(["Hello", "Goodybe", "Here"], ["Here"]);
+console.log(without([1, 2, 3], [3]));
+console.log(without(["1", "2", "3"], [1, 2, "1"]));
+console.log(without(["Hello", "Goodybe", "Here"], ["Here"]));
 const words = ["Hey", "Man", "Nice", "Shot"];
 without(words, ["Man"]);
 assertArraysEqual(words,["Hey", "Man", "Nice", "Shot"]);
