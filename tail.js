@@ -17,12 +17,12 @@ const tail = function(array) {
 };
 
 //Test cases using suggested answer & .join() method
-let words = ["Howdy", "What", "Up"];
+/*let words = ["Howdy", "What", "Up"];
 let result = tail(words);
 let test = ["What", "Up"];
 assertEqual(words.length, 3);
 assertEqual(result, ["What", "Up"]);
-//assertEqual(result.join(), test.join()); 
+//assertEqual(result.join(), test.join()); */
 
 module.exports = tail;
 
