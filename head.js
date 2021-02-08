@@ -20,7 +20,7 @@ const head = function(array) {
 };
 
 //test cases
-//assertEqual(head([5, 6, 7]), 5);
+//console.log((head(['5']), '5'));
 //assertEqual(head(["Hello", "LightHouse", "Labs"]), "Hello");
 
 module.exports = head;
