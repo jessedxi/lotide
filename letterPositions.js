@@ -1,4 +1,4 @@
-const eqArrays = function (array1, array2) {
+/*const eqArrays = function (array1, array2) {
   if (array1 === array2) {
     return true;
   } else if (array1 == null || array2 == null) {
@@ -43,7 +43,7 @@ const letterPositions = function (sentence) {
   }
   return results;
 };
-
-let testString1 = "Lighthouse in the house";
+module.exports = letterPositions;
+/*let testString1 = "Lighthouse in the house";
 console.log(letterPositions(testString1));
-assertArraysEqual(letterPositions("hello").e, [1]);
+assertArraysEqual(letterPositions("hello").e, [1]); */

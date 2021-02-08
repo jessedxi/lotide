@@ -1,4 +1,4 @@
-const eqArrays = function (array1, array2) {
+/*const eqArrays = function (array1, array2) {
   if (array1 === array2) {
     return true;
   } else if (array1 == null || array2 == null) {
@@ -20,7 +20,7 @@ const assertArraysEqual = function (array1, array2) {
   } else {
     console.log(`🔴 Assertion Failed: ${array1} !== ${array2}`);
   }
-};
+}; */
 
 
 //Take until function, passes in an array, loops through indexes
@@ -38,10 +38,12 @@ const takeUntil = function (array, callback) {
     }
   }
   return sliceArray;
-}
+};
+
+module.exports = takeUntil;
 
 
-
+/*
 const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];
 const results1 = takeUntil(data1, x => x < 0);
 console.log(results1);
@@ -53,4 +55,4 @@ const results2 = takeUntil(data2, x => x === ',');
 console.log(results2);
 
 assertArraysEqual([1, 2, 5, 7, 2], results1);
-assertArraysEqual(["I've", "been", "to", "Hollywood"], results2);
+assertArraysEqual(["I've", "been", "to", "Hollywood"], results2); */

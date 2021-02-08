@@ -1,4 +1,4 @@
-const eqArrays = function (array1, array2) {
+/*const eqArrays = function (array1, array2) {
   if (array1 === array2) {
     return true;
   } else if (array1 == null || array2 == null) {
@@ -20,7 +20,7 @@ const assertArraysEqual = function (array1, array2) {
   } else {
     console.log(`🔴 Assertion Failed: ${array1} !== ${array2}`);
   }
-};
+}; */
 
 const without = function (source, itemsToRemove) {
   let sourceEdit = [];
@@ -37,9 +37,11 @@ const without = function (source, itemsToRemove) {
   return sourceEdit;
 };
 
+module.exports = without;
+/*
 console.log(without([1, 2, 3], [3]));
 console.log(without(["1", "2", "3"], [1, 2, "1"]));
 console.log(without(["Hello", "Goodybe", "Here"], ["Here"]));
 const words = ["Hey", "Man", "Nice", "Shot"];
 without(words, ["Man"]);
-assertArraysEqual(words,["Hey", "Man", "Nice", "Shot"]);
+assertArraysEqual(words,["Hey", "Man", "Nice", "Shot"]); */
