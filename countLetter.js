@@ -1,11 +1,11 @@
-const assertEqual = function (actual, expected) {
+//For debug use
+/*const assertEqual = function (actual, expected) {
   if (actual === expected) {
     console.log(`🟢 Assertion Passed: ${actual} ===  ${expected}`);
   } else if (actual !== expected) {
     console.log(`🔴 Assertion Failed: ${actual} !== ${expected}`);
   }
-
-};
+ */
 
 // loops through given string and returns an object counting each time a letter has arose
 const countLetter = function (string) {
@@ -19,6 +19,7 @@ const countLetter = function (string) {
   }
   return results;
 };
+
 // Test Code: 
 /*
 let testString = "Lighthouse in the house";

@@ -1,4 +1,4 @@
-// eqArrays for use with later function
+// for debug use
 /*
 const eqArrays = function (array1, array2) {
   if (array1 === array2) {
@@ -39,6 +39,7 @@ const middle = function (array) {
   }
   return midValue;
 };
+
 /*
 console.log(middle([1])); // => []
 console.log(middle([1, 2])); // => []

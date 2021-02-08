@@ -1,3 +1,4 @@
+//for debug purposes:
 /*const eqArrays = function (array1, array2) {
   if (array1 === array2) {
     return true;
@@ -27,7 +28,7 @@ const assertArraysEqual = function (array1, array2) {
   /* loops through letters of a sentence
   checks if the key already exists, if so pushes the index of the letter to its array
   checks if the index is " ", if it isnt:
-  creats a key for th results object;
+  creats a key for thw results object;
   assigns current index to array.
   */
 
